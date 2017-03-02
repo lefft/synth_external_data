@@ -1,0 +1,16 @@
+[not usable, determined: mar2/2017]
+
+dataset1, obtained from data.gov/education, mar2/2017
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- need to find key for column names (not sure what most are initially)
+
+- nice data explorer thingy on source website
+
+- contains more than 50 states (includes e.g. "MH" -- marshall islands)
+
+- institution-level data, mostly colleges/higher ed
+
+- we are looking for k-12th grade school/class/district/etc.-level stuff
+
+- therefore, dataset is not usable

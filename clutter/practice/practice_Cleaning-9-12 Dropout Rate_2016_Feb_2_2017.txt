@@ -1,0 +1,20 @@
+Cleaning - 9-12 Dropout Rate_2016_Feb_2_2017
+
+What I notice:
+
+1. colB values include "School","District","State": including these as logical values in separate columns could be good.
+
+2. colD values include "X" and terms like "County","City", and some others that are more rare, but it might be nice to draw these off in some way.
+
+3. colE vals include numerical values and the character value "All".
+
+4. Similarly (!), colF includes not just school names (that end, e.g., in "High School", which could be pulled out) but also "All Column Values" where colE val is "All". AND (looking at colG) these rows are the ones in which colG indicates grades PK-12, so there's probably redundancy here that can be eliminated.
+
+5. Also in colF, "High" can be used instead of "High School" (as in "High South" of row 21). Other vals include "Detention Center" as in row 43, "Care Center" as in row 81, "Special Education Center" as in row 114, "Academy School" and "Center" as in rows 121-122.
+
+6. colG lists each grade in a school, such that both "09,10,11,12" and "07,08,09" would be necessary values to reference in looking at schools with grade 09. If we are interested only in particular grades, we can pull out of this something like a logical value for whether or not the school is a high school. If we want to be able to consider distinct grades, it may be just as well to set up distinct logical value strings for each grade of interest.
+
+7. colH gives vals that invariably begin with "9-12 Drop Outs -": the string should be labeled or defined so as to indicate this instead of using redundant articulation in the values. In the remaining portion of these vals, the word "Students" is often used as well and can be probably be eliminated, since it appears that this string exclusively concerns student types.
+
+8. colI and colJ appear to have numerical vals (whole numbers and decimals to the nearest tenth, respectively). But some cells are empty: can vals be added here? should they be?
+
