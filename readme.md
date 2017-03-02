@@ -1,9 +1,18 @@
 
+target states are: 
 
-each dataset should be processed in the same way, as described in steps (i)-(iv). 
+	> AZ -- arizona
+	> KY -- kentucky 
+	> MA -- massachussets (sp?)
+	> MN -- minnesota
+	> NC -- north carolina
+	> ND -- north dakota
+	> WA -- washington (state)
+	> WI -- wisconsin
+	> WV -- west virginia
 
-see also `code/main.r` for an example.
 
+each dataset should be processed in the same way, as described in steps (i)-(iv) (see also `code/main.r` for an example)
 
 
 ##### step (i): read in dataset
